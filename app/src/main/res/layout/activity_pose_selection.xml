@@ -10,7 +10,7 @@
         android:id="@+id/choosePoseText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Choose a Pose Option:"
+        android:text="Hareketi Seç:"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/black"  app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
             android:id="@+id/pose_option_1_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pose Option 1"
+            android:text="Sol El Kaldırma"
             android:layout_marginBottom="16dp"  android:textAllCaps="false"
             android:backgroundTint="@color/purple_200" />
 
@@ -39,7 +39,7 @@
             android:id="@+id/pose_option_2_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pose Option 2"
+            android:text="Sağ Dizi Karna Çekme"
             android:layout_marginBottom="16dp"  android:textAllCaps="false"
             android:backgroundTint="@color/teal_200" />
 
@@ -47,7 +47,7 @@
             android:id="@+id/pose_option_3_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pose Option 3"
+            android:text="Şınav"
             android:layout_marginBottom="16dp"  android:textAllCaps="false"
             android:backgroundTint="@color/holo_orange_light" />
 
@@ -55,9 +55,17 @@
             android:id="@+id/pose_option_4_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pose Option 4"
+            android:text="Mekik"
             android:textAllCaps="false"
             android:backgroundTint="@color/holo_green_light" />
+
+        <Button
+            android:id="@+id/pose_option_5_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sağ Diz ile Kalça Esnet"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/holo_red_light" />
 
     </LinearLayout>
 

@@ -30,8 +30,6 @@
                 android:value="true" />
         </activity>
 
-        <activity android:name=".OverlayActivity"></activity>
-
         <activity android:name=".PoseSelectionActivity"
             android:exported="true">
             <intent-filter>
