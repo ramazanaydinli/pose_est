@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         findViewById<OverlayView>(R.id.overlayView)?.setPoseOption(selectedPoseOption)
         Log.d("MainActivity", "onResume: Set pose option to: $selectedPoseOption")
     }
-
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         finish() // Ensures back button exits the app instead of going back to PoseSelectionActivity
     }

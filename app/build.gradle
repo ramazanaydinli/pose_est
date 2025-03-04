@@ -18,11 +18,12 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'de.undercouch.download'
+    id("com.google.gms.google-services")
 }
 
 android {
     namespace 'com.google.mediapipe.examples.poselandmarker'
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.google.mediapipe.examples.poselandmarker"
@@ -99,4 +100,8 @@ dependencies {
 
     // MediaPipe Library
     implementation 'com.google.mediapipe:tasks-vision:0.10.14'
+
+    implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation 'com.google.firebase:firebase-auth-ktx'
 }

@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.google.mediapipe.examples.poselandmarker" />
+                  <option name="mobileSdkAppId" value="1:736577864127:android:df2f9b69f373a025a3e10a" />
+                  <option name="projectId" value="fitness-6e8ff" />
+                  <option name="projectNumber" value="736577864127" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
